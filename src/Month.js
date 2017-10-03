@@ -202,6 +202,7 @@ class MonthView extends React.Component {
         eventWrapperComponent={components.eventWrapper}
         dateCellWrapper={components.dateCellWrapper}
         longPressThreshold={longPressThreshold}
+        resizable={this.props.resizable}
       />
     )
   }
