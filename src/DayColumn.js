@@ -142,16 +142,7 @@ class DayColumn extends React.Component {
       , showMultiDayTimes
       , culture
       , eventPropGetter
-<<<<<<< HEAD
-      , selected
-      , messages
-      , eventComponent
-      , eventTimeRangeFormat
-      , eventTimeRangeStartFormat
-      , eventTimeRangeEndFormat
-=======
       , selected, eventTimeRangeFormat, components: { eventComponent }
->>>>>>> Fix incorrect destructuring of eventComponent in DayColumn#renderEvents
       , eventWrapperComponent: EventWrapper
       , rtl: isRtl
       , step
