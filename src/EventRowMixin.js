@@ -24,11 +24,8 @@ export default {
     eventComponent: elementType,
     eventWrapperComponent: elementType.isRequired,
     onSelect: PropTypes.func,
-<<<<<<< HEAD
-    onDoubleClick: PropTypes.func
-=======
+    onDoubleClick: PropTypes.func,
     resizable: PropTypes.bool
->>>>>>> Pass Down Resizable Prop to Event Cell
   },
 
   defaultProps: {
